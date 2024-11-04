@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.edd-section-nav {
+    background-color: #6c757d;
+
+}
+
+.edd-container {
+    width: 80rem;
+    margin-inline: auto;
+    padding: 1rem;
+
+}
+
+.edd-container-nav {
+
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+
+}
+
+.edd-nav-bar ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+.edd-nav-bar li a {
+    text-decoration: none;
+    padding-inline: 1.5rem;
+    color: white;
+
+}
+
+.edd-nav-bar {
+    display: flex;
+    padding-inline: 4rem;
+    color: white;
+
+}
+
+.edd-intro-section {
+    /* background-image: url('./assets/intro-section\ img.jpeg'); */
+    background-color: rgb(55, 63, 61);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.edd-intro-section-glob {
+    text-align: center;
+}
+.edd-intro-name{
+    font-size: 1.5rem;
+    margin-block-end: 2rem;
+}
+.edd-intro-desc{
+    font-size: 2rem;
+    width: 50rem;
+    margin-block-end: 2rem;
+
+}
+
+.edd-intro-button{
+    border-radius: 5px;
+    width: 8rem;
+    height: 2rem;
+    border: none;
+    cursor: pointer;
+    margin-block-end: 2rem;
+    background-color: blue;
+    color: white;
+    font-size: larger;
+
+}
+.edd-title-desc-project{
+    text-align: center;
+    align-items: center;
+   
+
+}
+.edd-title-project{
+    text-align: center;
+    font-size: larger;
+
+}
+.edd-desc-project {
+    width: 55rem;
+    margin: auto;
+    text-align: center;
+    font-size: larger;
+    color: #35393c;
+}
+.edd-flex-project{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    border-radius: 18px;
+    margin: 20px;
+}
+.edd-flex-box img{
+    max-width: 100%;
+}
+.edd-title-box{
+    font-size: 1.3rem;
+    margin: 25px;
+    margin-bottom: 5px;
+}
+.edd-desc-box{
+    font-size: 1rem;
+    color: #6c757d;
+    margin-left: 25px;
+}
+.edd-button-box{
+    color: white;
+    margin-left: 30%;
+    margin-top: 15px;
+
+
+}
+.edd-button-box button{
+    border-radius: 5px;
+    width: 10rem;
+    height: 2rem;
+    border: none;
+    cursor: pointer;
+    margin-block-end: 2rem;
+    background-color: blue;
+    font-size: larger;
+    text-align: center;
+}
+.edd-button-box a{
+    color: white;
+    text-decoration: none;
+
+}
+.edd-flex-box{
+    background-color: rgb(20, 51, 51);
+}
